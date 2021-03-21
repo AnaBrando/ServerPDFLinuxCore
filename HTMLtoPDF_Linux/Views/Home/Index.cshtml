@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="btn">
+    @{Html.BeginForm("ExportToPDF", "Home", FormMethod.Post);
+        {
+            <input type="submit" class="Button" value="Export To PDF" />
+
+        }}
+</div>

@@ -1,0 +1,15 @@
+﻿body{
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+p{
+    font-size:2em;
+    text-align:center;
+    font-family:"Euclid Fraktur";
+
+}
+.name{
+    font-family: 'Graduate', cursive;
+    text-align: center;
+}

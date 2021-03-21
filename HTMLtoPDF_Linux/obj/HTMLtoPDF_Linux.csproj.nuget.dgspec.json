@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anabrando/Documentos/Projetos/HTMLtoPDF_Linux/HTMLtoPDF_Linux/HTMLtoPDF_Linux.csproj": {}
+  },
+  "projects": {
+    "/home/anabrando/Documentos/Projetos/HTMLtoPDF_Linux/HTMLtoPDF_Linux/HTMLtoPDF_Linux.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anabrando/Documentos/Projetos/HTMLtoPDF_Linux/HTMLtoPDF_Linux/HTMLtoPDF_Linux.csproj",
+        "projectName": "HTMLtoPDF_Linux",
+        "projectPath": "/home/anabrando/Documentos/Projetos/HTMLtoPDF_Linux/HTMLtoPDF_Linux/HTMLtoPDF_Linux.csproj",
+        "packagesPath": "/home/anabrando/.nuget/packages/",
+        "outputPath": "/home/anabrando/Documentos/Projetos/HTMLtoPDF_Linux/HTMLtoPDF_Linux/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/anabrando/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core": {
+              "target": "Package",
+              "version": "[16.3.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
